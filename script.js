@@ -449,7 +449,7 @@ const produtos = [
         descricao: "Porta Jóias Sephora.",
         preco: 20,
         categoria: "acessorios",
-        foto: "images/produto-55.jpg",
+        foto: "images/produto-55.JPG",
         vendido: false
     },
     {
@@ -457,9 +457,65 @@ const produtos = [
         descricao: "Garrafinha Sephora.",
         preco: 20,
         categoria: "acessorios",
-        foto: "images/produto-56.jpg",
+        foto: "images/produto-56.JPG",
         vendido: false
     },
+    {
+        nome: "Maleta de Maquiagem",
+        descricao: "Maleta de Maquiagem nunca usada.",
+        preco: 50,
+        categoria: "acessorios",
+        foto: "images/produto-57.jpeg",
+        vendido: false
+    },
+    {
+        nome: "Bolsa Dalla Makeup",
+        descricao: "Bolsa Dalla Makeup nunca usada.",
+        preco: 35,
+        categoria: "acessorios",
+        foto: "images/produto-58.jpeg",
+        vendido: false
+    },
+    {
+        nome: "Necessaire Bolsinha MAC Vermelha (Edição Exclusiva)",
+        descricao: "Necessaire/bolsinha exclusiva da MAC na cor vermelha, novinha, lacrada na embalagem original e nunca usada.",
+        preco: 50,
+        categoria: "acessorios",
+        foto: "images/produto-59.jpg",
+        vendido: false
+    },
+    {
+        nome: "Blush em Bastão Catharine Hill (Blush Stick)",
+        descricao: "Blush cremoso em formato stick de fácil aplicação e esfumado, perfeito para um acabamento natural e radiante.",
+        preco: 30,
+        categoria: "maquiagem",
+        foto: "images/produto-60.jpg",
+        vendido: false
+    },
+    {
+        nome: "Lápis Labial Vermelho Ruby Rose",
+        descricao: "Lápis para contorno labial em tom vermelho, ideal para definir os lábios e aumentar a durabilidade do batom.",
+        preco: 10,
+        categoria: "maquiagem",
+        foto: "images/produto-61.jpg",
+        vendido: false
+    },
+    {
+        nome: "Lápis de Olhos Preto Contém 1g",
+        descricao: "Lápis para olhos na cor preta, com pigmentação intensa e maciez para um traço preciso ou esfumado.",
+        preco: 20,
+        categoria: "maquiagem",
+        foto: "images/produto-62.jpg",
+        vendido: false
+    },
+    {
+        nome: "Lápis de Olhos Preto O Boticário (Intense)",
+        descricao: "Lápis para olhos preto da linha Intense de O Boticário, com textura macia e fórmula vegana.",
+        preco: 20,
+        categoria: "maquiagem",
+        foto: "images/produto-63.jpg",
+        vendido: false
+    }
 ];
 
 
