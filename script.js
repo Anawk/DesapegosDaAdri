@@ -393,7 +393,7 @@ const produtos = [
         descricao: "Bolsa.",
         preco: 20,
         categoria: "acessorios",
-        foto: "images/produto-48.JPG",
+        foto: "images/produto-48.jpg",
         vendido: false
     },
     {
