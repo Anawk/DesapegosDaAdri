@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Desapegos da Adri</title>
+
+    <meta
+        name="description"
+        content="Desapegos de maquiagem, produtos de beleza, acessórios e muito mais."
+    >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+
+        <div class="header-container">
+
+            <a href="#" class="logo">
+                <span>Desapegos</span>
+                <strong>da Adri</strong>
+            </a>
+
+            <a
+                href="https://www.instagram.com/adrianalima.makeup/"
+                target="_blank"
+                class="instagram-link"
+            >
+                Instagram ↗
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- HERO -->
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <span class="hero-small">
+                    ✦ GARIMPOS DE BELEZA
+                </span>
+
+                <h1>
+                    Produtos de beleza<br>
+                    procurando um <em>novo lar.</em>
+                </h1>
+
+                <p>
+                    Maquiagens, acessórios, produtos para cabelo
+                    e outros desapegos em ótimo estado.
+                </p>
+
+                <a href="#produtos" class="hero-button">
+                    Ver desapegos
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- PRODUTOS -->
+        <section class="products-section" id="produtos">
+
+            <div class="section-title">
+
+                <div>
+                    <span class="section-small">MEUS DESAPEGOS</span>
+
+                    <h2>
+                        Encontre seu próximo favorito
+                    </h2>
+                </div>
+
+                <span class="product-count" id="productCount">
+                    0 produtos
+                </span>
+
+            </div>
+
+
+            <!-- FILTROS -->
+            <div class="filters">
+
+                <button
+                    class="filter active"
+                    data-filter="todos"
+                >
+                    Todos
+                </button>
+
+                <button
+                    class="filter"
+                    data-filter="maquiagem"
+                >
+                    Maquiagem
+                </button>
+
+                <button
+                    class="filter"
+                    data-filter="cabelo"
+                >
+                    Cabelo
+                </button>
+
+                <button
+                    class="filter"
+                    data-filter="acessorios"
+                >
+                    Acessórios
+                </button>
+
+                <button
+                    class="filter"
+                    data-filter="outros"
+                >
+                    Outros
+                </button>
+
+                <button
+                    class="filter available-filter"
+                    data-filter="disponiveis"
+                >
+                    ✓ Disponíveis
+                </button>
+
+                <button
+                    class="filter sold-filter"
+                    data-filter="vendidos"
+                >
+                    Vendidos
+                </button>
+
+            </div>
+
+
+            <!-- GRID -->
+            <div
+                class="products-grid"
+                id="productsGrid"
+            ></div>
+
+
+            <!-- SEM RESULTADOS -->
+            <div
+                class="no-results"
+                id="noResults"
+            >
+                <span>♡</span>
+
+                <h3>
+                    Nenhum produto encontrado
+                </h3>
+
+                <p>
+                    Tente selecionar outra categoria.
+                </p>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-content">
+
+            <div class="footer-logo">
+                desapegos <strong>da Adri</strong>
+            </div>
+
+            <p>
+                Produtos de beleza procurando um novo lar ✦
+            </p>
+
+            <span>
+                © 2026 — Todos os direitos reservados
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
