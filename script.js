@@ -42,14 +42,14 @@ const produtos = [
         preco: 50,
         categoria: "maquiagem",
         foto: "images/produto-04.jpeg",
-        vendido: true
+        vendido: false
     },
     {
         nome: "Kit de Pincéis de Maquiagem com Estojo Beges/Dourados",
         descricao: "Conjunto de pincéis para olhos e detalhamento com cabos em tom bege/dourado, acompanha bolsa/estojo protetor de couro sintético.",
         preco: 40,
         categoria: "acessorios",
-        foto: "images/produto-05.jpg",
+        foto: "images/produto-05.jpeg",
         vendido: false
     },
     {
@@ -57,7 +57,7 @@ const produtos = [
         descricao: "Paleta versátil com tons neutros, cintilantes e opacos em embalagem dourada espelhada. Item fora de linha / esgotado no site.",
         preco: 100,
         categoria: "maquiagem",
-        foto: "images/produto-06.jpg",
+        foto: "images/produto-06.jpeg",
         vendido: false
     },
     {
@@ -65,7 +65,7 @@ const produtos = [
         descricao: "Bronzer e iluminador marmorizado com acabamento radiante, textura fina e alta pigmentação.",
         preco: 20,
         categoria: "maquiagem",
-        foto: "images/produto-07.jpg",
+        foto: "images/produto-07.jpeg",
         vendido: false
     },
     {
@@ -73,7 +73,7 @@ const produtos = [
         descricao: "Óleo iluminador corporal com partículas douradas reluzentes e vitamina E para hidratação e brilho intenso na pele.",
         preco: 30,
         categoria: "outros",
-        foto: "images/produto-08.jpg",
+        foto: "images/produto-08.jpeg",
         vendido: false
     },
     {
@@ -113,7 +113,7 @@ const produtos = [
         descricao: "Sombra mono em tom dourado com alto brilho, textura macia e acabamento metálico reluzente.",
         preco: 50,
         categoria: "maquiagem",
-        foto: "images/produto-13.jpg",
+        foto: "images/produto-13.png",
         vendido: false
     },
     {
@@ -121,7 +121,7 @@ const produtos = [
         descricao: "Iluminador cremoso em formato stick de fácil aplicação, garante efeito glow natural e perolado.",
         preco: 40,
         categoria: "maquiagem",
-        foto: "images/produto-14.jpg",
+        foto: "images/produto-14.png",
         vendido: false
     },
     {
@@ -137,7 +137,7 @@ const produtos = [
         descricao: "Batom líquido/tint em tom vermelho vibrante com embalagem compacta.",
         preco: 30,
         categoria: "maquiagem",
-        foto: "images/produto-16.jpg",
+        foto: "images/produto-16.jpeg",
         vendido: false
     },
     {
@@ -161,7 +161,7 @@ const produtos = [
         descricao: "Apontador duplo rosa com tampa de proteção, adequado para lápis de maquiagem finos e grossos.",
         preco: 30,
         categoria: "acessorios",
-        foto: "images/produto-19.jpg",
+        foto: "images/produto-19.jpeg",
         vendido: false
     },
     {
@@ -193,7 +193,7 @@ const produtos = [
         descricao: "Sombra metálica com brilho intenso, pigmentos refletores e embalagem com visor transparente.",
         preco: 80,
         categoria: "maquiagem",
-        foto: "images/produto-23.jpg",
+        foto: "images/produto-23.jpeg",
         vendido: false
     },
     {
@@ -201,7 +201,7 @@ const produtos = [
         descricao: "Sombra prateada ultra brilhante com acabamento folheado e alta cobertura.",
         preco: 80,
         categoria: "maquiagem",
-        foto: "images/produto-24.jpg",
+        foto: "images/produto-24.jpeg",
         vendido: false
     },
     {
@@ -209,7 +209,7 @@ const produtos = [
         descricao: "Sombra de acabamento híbrido (creme e pó) com brilho verde metálico e textura em relevo.",
         preco: 80,
         categoria: "maquiagem",
-        foto: "images/produto-25.jpg",
+        foto: "images/produto-25.jpeg",
         vendido: false
     },
     {
@@ -217,7 +217,7 @@ const produtos = [
         descricao: "Sombra individual compacta com embalagem colecionável em tom vibrante.",
         preco: 80,
         categoria: "maquiagem",
-        foto: "images/produto-26.jpg",
+        foto: "images/produto-26.jpeg",
         vendido: false
     },
     {
@@ -225,7 +225,7 @@ const produtos = [
         descricao: "Sombra individual cintilante em tom champagne/dourado claro.",
         preco: 50,
         categoria: "maquiagem",
-        foto: "images/produto-27.jpg",
+        foto: "images/produto-27.jpeg",
         vendido: false
     },
     {
@@ -233,7 +233,7 @@ const produtos = [
         descricao: "Sombra compacta com brilho delicado em tom rosa neutro.",
         preco: 80,
         categoria: "maquiagem",
-        foto: "images/produto-28.jpg",
+        foto: "images/produto-28.jpeg",
         vendido: false
     },
     {
@@ -241,15 +241,15 @@ const produtos = [
         descricao: "Iluminador multifuncional líquido em bisnaga, perfeito para um acabamento glow natural na face.",
         preco: 30,
         categoria: "maquiagem",
-        foto: "images/produto-29.jpg",
+        foto: "images/produto-29.jpeg",
         vendido: false
     },
     {
-        nome: "Iluminador / Base Líquida Glow (Mari Maria / Océane)",
+        nome: "Iluminador / Base Líquida Glow (Larissa Manoela / Océane)",
         descricao: "Produtos de iluminação líquida com embalagens de vidro em tons bronze e champagne.",
         preco: 30,
         categoria: "maquiagem",
-        foto: "images/produto-30.jpg",
+        foto: "images/produto-30.jpeg",
         vendido: false
     },
     {
@@ -262,18 +262,18 @@ const produtos = [
     },
     {
         nome: "Base Líquida Niina Secrets Hydro Fluid / Basic",
-        descricao: "Base facial em bisnaga com textura leve e acabamento natural hidratante.",
+        descricao: "Base facial na cor 4 e cor 2.",
         preco: 25,
         categoria: "maquiagem",
         foto: "images/produto-32.jpg",
         vendido: false
     },
     {
-        nome: "Paleta de Sombras 9 Cores (Tons Rosados e Terrosos)",
-        descricao: "Paleta compacta com 9 sombras em acabamentos opacos e cintilantes com espelho integrado.",
+        nome: "Paleta de Sombras - Ready Palette Océane Limited 20g",
+        descricao: "São 9 tons, 2 mattes, 2 cintilantes e 5 com textura wet para você arrasar em qualquer ocasião.",
         preco: 50,
         categoria: "maquiagem",
-        foto: "images/produto-33.jpg",
+        foto: "images/produto-33.jpeg",
         vendido: false
     },
     {
@@ -289,7 +289,7 @@ const produtos = [
         descricao: "Blush facial de alta pigmentação com acabamento matte e toque aveludado.",
         preco: 50,
         categoria: "maquiagem",
-        foto: "images/produto-35.jpg",
+        foto: "images/produto-35.jpeg",
         vendido: false
     },
     {
@@ -297,7 +297,7 @@ const produtos = [
         descricao: "Blush facial em tom fechado sofisticado, fácil de esfumar e com ótima fixação.",
         preco: 40,
         categoria: "maquiagem",
-        foto: "images/produto-36.jpg",
+        foto: "images/produto-36.jpeg",
         vendido: false
     },
     {
@@ -321,8 +321,8 @@ const produtos = [
         descricao: "Mini frasco colecionável em formato de maçã com fragrância feminina e delicada.",
         preco: 50,
         categoria: "outros",
-        foto: "images/produto-39.jpg",
-        vendido: false
+        foto: "images/produto-39.png",
+        vendido: true
     },
     {
         nome: "Gloss Labial Vizzela In Love Fit Gloss",
@@ -330,8 +330,136 @@ const produtos = [
         preco: 10,
         categoria: "maquiagem",
         foto: "images/produto-40.jpg",
+        vendido: true
+    },
+    {
+        nome: "Necessaire Sephora",
+        descricao: "Necessaire Sephora estilo puff.",
+        preco: 25,
+        categoria: "acessorios",
+        foto: "images/produto-41.JPG",
         vendido: false
-    }
+    },
+    {
+        nome: "Necessaire Sephora",
+        descricao: "Necessaire Sephora com lacinho.",
+        preco: 25,
+        categoria: "acessorios",
+        foto: "images/produto-42.JPG",
+        vendido: false
+    },
+    {
+        nome: "Necessaire Sephora",
+        descricao: "Necessaire Sephora com divisória.",
+        preco: 25,
+        categoria: "acessorios",
+        foto: "images/produto-43.JPG",
+        vendido: false
+    },
+    {
+        nome: "Mochila Sephora",
+        descricao: "Mochila Sephora tamanho médio.",
+        preco: 40,
+        categoria: "acessorios",
+        foto: "images/produto-44.JPG",
+        vendido: false
+    },
+    {
+        nome: "Necessaire Vizela",
+        descricao: "Necessaire Vizela.",
+        preco: 20,
+        categoria: "acessorios",
+        foto: "images/produto-45.JPG",
+        vendido: false
+    },
+    {
+        nome: "Necessaire Ruby Rose",
+        descricao: "Necessaire Ruby Rose.",
+        preco: 20,
+        categoria: "acessorios",
+        foto: "images/produto-46.JPG",
+        vendido: false
+    },
+    {
+        nome: "Necessaire Beyong",
+        descricao: "Necessaire Beyong.",
+        preco: 20,
+        categoria: "acessorios",
+        foto: "images/produto-47.JPG",
+        vendido: false
+    },
+    {
+        nome: "Bolsa",
+        descricao: "Bolsa.",
+        preco: 20,
+        categoria: "acessorios",
+        foto: "images/produto-48.JPG",
+        vendido: false
+    },
+    {
+        nome: "Bag Wet´n Wild",
+        descricao: "Bag Wet´n Wild.",
+        preco: 20,
+        categoria: "acessorios",
+        foto: "images/produto-49.JPG",
+        vendido: false
+    },
+    {
+        nome: "Bag Ruby Rose",
+        descricao: "Bag Ruby Rose.",
+        preco: 20,
+        categoria: "acessorios",
+        foto: "images/produto-50.JPG",
+        vendido: false
+    },
+    {
+        nome: "Bag Mia Make",
+        descricao: "Bag Mia Make.",
+        preco: 20,
+        categoria: "acessorios",
+        foto: "images/produto-51.JPG",
+        vendido: false
+    },
+    {
+        nome: "Bag Oboticario",
+        descricao: "Bag Oboticario.",
+        preco: 20,
+        categoria: "acessorios",
+        foto: "images/produto-52.JPG",
+        vendido: false
+    },
+    {
+        nome: "Necessaire Época",
+        descricao: "Necessaire Época.",
+        preco: 20,
+        categoria: "acessorios",
+        foto: "images/produto-53.JPG",
+        vendido: false
+    },
+    {
+        nome: "Prochete Maybelline",
+        descricao: "Prochete Maybelline.",
+        preco: 20,
+        categoria: "acessorios",
+        foto: "images/produto-54.jpg",
+        vendido: false
+    },
+    {
+        nome: "Porta Jóias Sephora",
+        descricao: "Porta Jóias Sephora.",
+        preco: 20,
+        categoria: "acessorios",
+        foto: "images/produto-55.jpg",
+        vendido: false
+    },
+    {
+        nome: "Garrafinha Sephora",
+        descricao: "Garrafinha Sephora.",
+        preco: 20,
+        categoria: "acessorios",
+        foto: "images/produto-56.jpg",
+        vendido: false
+    },
 ];
 
 
