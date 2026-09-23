@@ -26,7 +26,7 @@ const produtos = [
         preco: 20,
         categoria: "cabelo",
         foto: "images/produto-02.jpeg",
-        vendido: false
+        vendido: true
     },
     {
         nome: "MAC Hyper Real Fresh Canvas Cleansing Oil 15ml",
@@ -58,7 +58,7 @@ const produtos = [
         preco: 100,
         categoria: "maquiagem",
         foto: "images/produto-06.jpeg",
-        vendido: false
+        vendido: true
     },
     {
         nome: "Pó Marmo Misto Ruby Rose GLASS Marble Essence (Cor MBO2 - Royalty)",
@@ -242,7 +242,7 @@ const produtos = [
         preco: 30,
         categoria: "maquiagem",
         foto: "images/produto-29.jpeg",
-        vendido: false
+        vendido: true
     },
     {
         nome: "Iluminador / Base Líquida Glow (Larissa Manoela / Océane)",
@@ -394,7 +394,7 @@ const produtos = [
         preco: 20,
         categoria: "acessorios",
         foto: "images/produto-48.jpg",
-        vendido: false
+        vendido: true
     },
     {
         nome: "Bag Wet´n Wild",
@@ -482,7 +482,7 @@ const produtos = [
         preco: 50,
         categoria: "acessorios",
         foto: "images/produto-59.jpg",
-        vendido: false
+        vendido: true
     },
     {
         nome: "Blush em Bastão Catharine Hill (Blush Stick)",
@@ -506,7 +506,7 @@ const produtos = [
         preco: 20,
         categoria: "maquiagem",
         foto: "images/produto-62.jpg",
-        vendido: false
+        vendido: true
     },
     {
         nome: "Lápis de Olhos Preto O Boticário (Intense)",
@@ -514,7 +514,7 @@ const produtos = [
         preco: 20,
         categoria: "maquiagem",
         foto: "images/produto-63.jpg",
-        vendido: false
+        vendido: true
     }
 ];
 
